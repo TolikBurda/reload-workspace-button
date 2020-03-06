@@ -1,0 +1,5 @@
+{
+  "atom-workspace": {
+    "ctrl-q": "reload-workspace-button:toggle"
+  }
+}

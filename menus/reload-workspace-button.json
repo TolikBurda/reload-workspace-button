@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle reload-workspace-button",
+        "command": "reload-workspace-button:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "reload-workspace-button",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "reload-workspace-button:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

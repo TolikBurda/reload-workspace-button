@@ -1,7 +1,7 @@
 {
   "name": "reload-workspace-button",
   "main": "./lib/reload-workspace-button",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "normal use of ATOM requires regular page reloads. this button will help with this",
   "keywords": [],
   "activationCommands": {
@@ -12,14 +12,12 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-
-  },
+  "dependencies": {},
   "consumedServices": {
-   "status-bar": {
-     "versions": {
-       "^1.0.0": "consumeStatusBar"
-     }
-   }
- }
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
+  }
 }
